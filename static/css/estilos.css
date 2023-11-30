@@ -1,0 +1,75 @@
+/* Agrega estilos según tus preferencias */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra los elementos dentro del formulario */
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta el alto del contenedor para centrar en la ventana completa */
+}
+
+body.index-page a {
+    display: inline-block;
+    margin-right: 10px; /* Ajusta el espacio entre los botones */
+    text-decoration: none; /* Elimina la decoración predeterminada de los enlaces */
+}
+
+body.index-page a.button-ejercicio1 {
+    background-color: #b300b3; /* Color rosa para el botón del ejercicio 1 */
+    color: white; /* Texto en color blanco */
+    padding: 55px 40px; /* Ajusta el relleno del botón */
+}
+
+body.index-page a.button-ejercicio2 {
+    background-color: #9acd32; /* Color verde para el botón del ejercicio 2 */
+    color: white; /* Texto en color blanco */
+    padding: 55px 40px; /* Ajusta el relleno del botón */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.centrado-form {
+    text-align: center; /* Centra los elementos dentro del formulario */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.resultados{
+    font-size: 15px;
+    text-align: left
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;  /* Agrega margen en la parte inferior de las etiquetas */
+}
+
+input[type="text"], input[type="number"], input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
